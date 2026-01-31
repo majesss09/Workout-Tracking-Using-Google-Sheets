@@ -1,6 +1,9 @@
 import requests
 from datetime import datetime
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app_id = os.environ["APP_ID"]
 app_key = os.environ["API_KEY"]
